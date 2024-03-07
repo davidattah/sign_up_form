@@ -17,7 +17,7 @@ html,body{
 } 
 
 .side-bar{
-    background-image: url(photo-1587938745570-681161dcfe17.avif);
+    background-image: url(photo-1581049966083-210f169bc2b4.avif);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,6 +25,7 @@ html,body{
     width:50vh;
     display:flex;
     flex-direction: column;
+    
     
 }
 
@@ -68,3 +69,31 @@ html,body{
     color:white
 }
 
+.form{
+    display:flex;
+    flex-direction:column
+}
+
+.header{
+    padding:100px 0 50px 100px;
+    background-color: black;
+    color:white;
+}
+
+.header p:first-child{
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    width:70%;
+    margin: 0 0 20px 0
+}
+
+.header p:nth-child(2){
+    font-size:20px;
+}
+
+.middle{
+    padding:20px 0 0 100px;
+    color:black;
+    background-color: white;
+
+}
