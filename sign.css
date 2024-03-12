@@ -64,7 +64,7 @@ html,body{
     font-family:'Times New Roman', Times, serif;
 }   
 
-.credits a{
+.credits a, .footer a{
     color:white
 }
 
@@ -80,6 +80,7 @@ html,body{
     padding:80px 0 50px 80px;
     background-color: black;
     color:white;
+    height:15%;
 }
 
 .header p:first-child{
@@ -94,18 +95,25 @@ html,body{
 }
 
 .middle{
-    padding:20px 0 0 100px;
+    padding:20px 0 0 80px;
     color:black;
     background-color: white;
     font-size: 25px;
-    height:35%;
+    height:50%;
     
 }
 
 .middle p{
-    padding: 0 0 10px 0;
+    font-size:20px;
+    padding: 0 0 5px 0;
+}
+.middle span{
+    font-size:15px;
 }
 
+.middle span > b{
+    color:red
+}
 .form{
     display:flex;
     flex-wrap:wrap;
@@ -133,4 +141,42 @@ html,body{
     border-color: #E5E7EB;
 }
 
-.form
+.footer{
+    padding: 30px 0 0 80px;
+    background-color: black;
+    color:white;
+    height:30%;
+}
+
+.footer button{
+    padding:10px;
+    border-color: #E5E7EB;
+    border-radius:5px;
+    width:20%;
+}
+
+.footer > div{
+    padding:0 0 20px 0;
+}
+
+input:focus{
+    border-color: red;
+}
+
+label[for ="password"]:after{
+    content:"*";
+    color:red;
+    padding:0 0 0 2px;
+}
+
+label[for="confirm"]::after{
+    content:"*";
+    color:red;
+    padding:0 0 0 2px;
+
+}
+
+
+@media screen {
+    
+}
